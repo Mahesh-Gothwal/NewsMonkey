@@ -29,8 +29,8 @@ const updateNews = async()=>{
     setLoading(false)
 
       props.setProgress(100);
-    }
-    
+  }
+   
     useEffect(()=>{
     document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
     updateNews();
